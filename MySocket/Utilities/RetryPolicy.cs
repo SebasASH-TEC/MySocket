@@ -2,7 +2,8 @@ namespace MySocket.Utilities
 {
     public static class RetryPolicy
     {
-        public static async Task ExecuteAsync(Func<Task> action, int maxRetries = 5, int delayMs = 300)
+        // Se ejecuta la accion con reintentos
+        public static async Task ExecuteAsync(Func<Task> action, int maxRetries = 5, int delayMs = 500)
         {
             int attempts = 0;
             while (true)

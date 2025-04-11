@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySocket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+420a83b1a79d4f4262f645e5a535faf503cddf08")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySocket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySocket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
